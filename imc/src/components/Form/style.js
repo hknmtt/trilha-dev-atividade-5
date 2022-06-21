@@ -5,16 +5,14 @@ const styles = StyleSheet.create({
     flex: 1,
     width: '100%',
     height: '100%',
-    justifyContent: 'space-around',
     backgroundColor: '#fff',
     alignItems: 'center',
+    marginTop: 30,
     borderTopLeftRadius: 30,
     borderTopRightRadius: 30,
   },
   form: {
     width: '100%',
-    height: 'auto',
-    marginTop: 30,
     padding: 20,
   },
   formLabel: {
@@ -39,7 +37,7 @@ const styles = StyleSheet.create({
     paddingTop: 14,
     paddingBottom: 14,
     marginLeft: 12,
-    marginTop: 10,
+    marginTop: 30,
   },
   textButtonCalculator: {
     fontSize: 20,
@@ -49,6 +47,24 @@ const styles = StyleSheet.create({
     color: 'red',
     fontWeight: 'bold',
     paddingLeft: 20,
+  },
+  exhibitionResultImc: {
+    width: '100%',
+    height: '50%',
+  },
+  listImcs:{
+    marginTop:20,
+  },
+  resultImcItem:{
+    fontSize:26,
+    color:"red",
+    height:50,
+    width:"100%",
+    paddingRight:20,
+  },
+  textResultItemList:{
+    fontSize:16,
+    
   },
 });
 
